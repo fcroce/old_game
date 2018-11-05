@@ -1,0 +1,89 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#mainwin {
+    position: relative;
+    width: 800px;
+    height: 1260px;
+    margin: 0px auto;
+}
+#contenitore {
+    width: 800px;
+    height: 1200px;
+    margin: 10px auto 50px;
+}
+#terreno {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: inherit;
+    height: inherit;
+    outline: 0;  
+    border: 1px solid #000;  
+    margin-left: auto;  
+    margin-right: auto;
+    background: #d0e7f9;
+}
+
+#ground-cloud {
+    width: inherit;
+    height: 12px;
+    position: absolute;
+    left:1px;
+    bottom: 59px;
+    background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+
+#status_bar {
+    position: fixed;
+    bottom: 0px;
+    width: 790px;
+    margin: 10px 0px 0px 6px;
+    background: transparent;
+    border: #c1c1c1;
+}
+
+#status_bar_testo {
+    float: left;
+    width: 316px;
+    height: 25px;
+    margin-right: 19px;
+    padding: 5px 0px 0px 10px;
+    text-align: center;
+    color: #ffffff;
+    background: #424242;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+#timer {
+    float: left;
+    width: 100px;
+    height: 25px;
+    margin-right: 1px;
+}
+#pause-resume {
+    cursor: pointer;
+    float: left;
+    width: 20px;
+    height: 25px;
+    border: 1px solid #ccc;
+    background: #eeeeee url('../img/pause.png') no-repeat 2px 4px;
+    -webkit-border-top-right-radius: 6px;
+    -webkit-border-bottom-right-radius: 6px;
+    -moz-border-radius-topright: 6px;
+    -moz-border-radius-bottomright: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+#soundtrack {
+    float: right;
+}

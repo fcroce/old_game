@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Giochino</title>
+    
+    <meta name="description" content="Giochino" />
+    <meta name="keywords" content="giochino" />
+    
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css" />
+    
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+</head>
+
+<body>
+
+    <div id="mainwin">
+	<div id="contenitore">
+	    
+	    <audio id="jump" src="sounds/jump.ogg">  
+		Il tuo browser non supporta alcuni elementi di html5
+	    </audio>
+	    
+	    <audio id="eat" src="sounds/eat.mp3">  
+		Il tuo browser non supporta alcuni elementi di html5
+	    </audio>
+	    
+	    <audio id="level_complete" src="sounds/level_complete.mp3">  
+		Il tuo browser non supporta alcuni elementi di html5
+	    </audio>
+	    
+	    <canvas id="terreno">
+		Il tuo browser non supporta alcuni elementi di html5
+	    </canvas>
+	    <script type="text/javascript" src="js/gioco.js"></script>
+	    
+	    <div id="ground-cloud"></div>
+	</div>
+	
+	<div id="status_bar">
+	    <div id="status_bar_testo"></div>
+	    
+	    <div id="timer"></div>
+	    <div id="pause-resume"></div>
+	    
+	    <audio id="soundtrack" controls preload loop>
+		<source src="music/Deeper.ogg">
+		Il tuo browser non supporta alcuni elementi di html5
+	    </audio>
+	    
+	    <div style="clear:both;"></div>
+	</div>
+    </div>
+
+</body>
+</html>
